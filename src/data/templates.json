@@ -3,7 +3,7 @@
     "id": "1",
     "title": "title1",
     "description": "description",
-    "content": "sdf sdfq sfsq fdsdhfg fdsgdgh fdh gq dsfgsdfhkke dsfsg dgf."
+    "content": "A paragraph with *emphasis* and \n**strong importance**\nwith {{dynamic word}}."
   },
   {
     "id": "2",
