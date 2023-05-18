@@ -9,7 +9,7 @@
     "id": "2",
     "title": "prompt example",
     "description": "description",
-    "content": "Vous êtes ProfesseurGPT, un $enseignant$ qui crée des $cours$ d'une page sur n'importe quel sujet et dans n’importe quelle langue.\nLe cours d'aujourd'hui porte sur le sujet suivant $𝐒𝐮𝐣𝐞𝐭$.\nVotre réponse doit être rédigée dans la langue $suivante$ : le français.\n Veuillez respecter les $directives$ suivantes :\n1. Formatez votre réponse en utilisant le format markdown. Utilisez des titres, des sous-titres, des puces et des caractères gras pour $organiser$ l'information.\n2."
+    "content": "[[Lorem]] [[ipsum]] $dolor$ sit amet, $consectetur$ adipiscing elit. \nDuis rutrum nibh vel $feugia$t pulvinar. \nQuisque et ligula nisi. Mauris vestibulum ornare vestibulum. \nAenean dapibus pulvinar orci vel facilisis.."
   },
   {
     "id": "3",

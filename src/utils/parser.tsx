@@ -1,6 +1,14 @@
-const parser = (text: string, pattern: RegExp) => {
-  const result = text.match(pattern);
-  return result;
+interface ParserProps {
+  text: string | null | undefined,
 }
-
-export default parser;
+export const findFramedWords = ({ text }: ParserProps) => {
+  if (text !== null && text !== undefined) {
+    const pattern = /\[\[(.*?)\]\]/g
+    const results = [];
+    let match;
+    while ((match = pattern.exec(text)) !== null) {
+      results.push(match[1])
+    }
+    return results
+  }
+}
