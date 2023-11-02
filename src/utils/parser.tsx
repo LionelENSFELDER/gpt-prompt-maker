@@ -12,3 +12,11 @@ export const findFramedWords = ({ text }: ParserProps) => {
     return results
   }
 }
+
+interface createPromptProps {
+  text: string | null | undefined,
+  inputs: string[] | null | undefined,
+}
+export const createPrompt = ({ text, inputs }: createPromptProps) => {
+  console.log('createPrompt', text, inputs)
+}
